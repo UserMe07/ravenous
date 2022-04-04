@@ -1,0 +1,52 @@
+.Places {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 16.66rem;
+    margin: 0 .5rem 2.3rem .5rem;
+  }
+  
+  .Places .image-container {
+    height: 16.66rem;
+    margin-bottom: 1rem;
+  }
+  
+  .Places h2 {
+    margin-bottom: .5rem;
+    font-size: 1.2rem;
+    font-weight: 600;
+  }
+  
+  .Places-info {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .Places-info p {
+    font-size: .88rem;
+    font-weight: 300;
+    line-height: 1rem;
+  }
+  
+  .Places-location {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  
+  .Places-rating {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: right;
+  }
+  
+  .Places-rating h3 {
+    color: #da86d5;
+    font-weight: 600;
+  }
+  
+  .Places-rating .rating {
+    font-size: .88rem;
+    line-height: 1rem;
+  }
